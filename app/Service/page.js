@@ -1,5 +1,5 @@
 import React from "react";
-import {} from "react-icons/";
+import { GrAnnounce } from "react-icons/gr";
 
 const Service = () => {
   return (
@@ -15,7 +15,32 @@ const Service = () => {
         </div>
         <div class="stabs">
           <div class="tab">
-            <div class="E-icon"></div>
+            <div class="seo-box">
+              <div class="seo-icon">
+                <GrAnnounce />
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="mail-box">
+              <div class="mail-icon">
+                <GrAnnounce />
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="sm-box">
+              <div class="sm-icon">
+                <GrAnnounce />
+              </div>
+            </div>
+          </div>
+          <div class="tab">
+            <div class="ppc-box">
+              <div class="ppc-icon">
+                <GrAnnounce />
+              </div>
+            </div>
           </div>
         </div>
       </div>
