@@ -141,7 +141,7 @@ span {
 
 .svice {
   height: 85vh;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(240, 240, 240);
 }
 
 .stitle {
@@ -161,23 +161,61 @@ span {
   justify-content: center;
   padding: 0 20%;
 }
-.stabs{
+
+.stabs {
   margin-top: 5vh;
   display: flex;
   justify-content: space-evenly;
 }
-.tab{
-  color: rgb(255, 255, 255);
+
+.tab {
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  width: 10vh;
+  font-weight: bolder;
+  justify-content: space-around;
 }
-.seo-box{
+
+.box {
   border-radius: 50% 0;
   height: 30px;
   width: 30px;
-  background-color: rgb(253, 210, 194);
 }
-.seo-icon{
-  color: orangered;
+
+.icon {
   justify-content: center;
   display: flex;
   padding: 20%;
+}
+
+.seo-box {
+  background-color: rgb(255, 228, 219);
+}
+
+.seo-icon {
+  color: orangered;
+}
+
+.mail-box {
+  background-color: rgb(194, 248, 196);
+}
+
+.mail-icon {
+  color: rgb(76, 201, 81);
+}
+
+.sm-box {
+  background-color: rgb(208, 195, 255);
+}
+
+.sm-icon {
+  color: rgb(114, 76, 247);
+}
+
+.ppc-box {
+  background-color: rgb(191, 255, 255);
+}
+
+.ppc-icon {
+  color: rgb(48, 221, 221);
 }

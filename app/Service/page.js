@@ -1,5 +1,8 @@
 import React from "react";
 import { GrAnnounce } from "react-icons/gr";
+import { IoMdMail } from "react-icons/io";
+import { TfiAnnouncement } from "react-icons/tfi";
+import { PiCursorClickFill } from "react-icons/pi";
 
 const Service = () => {
   return (
@@ -15,30 +18,33 @@ const Service = () => {
         </div>
         <div class="stabs">
           <div class="tab">
-            <div class="seo-box">
-              <div class="seo-icon">
+            <div class="box seo-box">
+              <div class="icon seo-icon">
                 <GrAnnounce />
+              </div>
+              <div>
+                <h1>SEO</h1>
               </div>
             </div>
           </div>
           <div class="tab">
-            <div class="mail-box">
-              <div class="mail-icon">
-                <GrAnnounce />
+            <div class="box mail-box">
+              <div class="icon mail-icon">
+                <IoMdMail />
               </div>
             </div>
           </div>
           <div class="tab">
-            <div class="sm-box">
-              <div class="sm-icon">
-                <GrAnnounce />
+            <div class="box sm-box">
+              <div class="icon sm-icon">
+              <TfiAnnouncement />
               </div>
             </div>
           </div>
           <div class="tab">
-            <div class="ppc-box">
-              <div class="ppc-icon">
-                <GrAnnounce />
+            <div class="box ppc-box">
+              <div class="icon ppc-icon">
+              <PiCursorClickFill />
               </div>
             </div>
           </div>
